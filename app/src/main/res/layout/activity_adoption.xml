@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AdoptionActivity">
+
+
+    <TextView
+        android:id="@+id/adopt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you  "
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="#E4E3E3"
+        android:hint="Name"
+        android:minHeight="48dp"
+        android:text="">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="#E4E3E3"
+        android:hint="Location"
+        android:minHeight="48dp"
+        android:text="">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text=" FINISH" />
+
+
+</RelativeLayout>

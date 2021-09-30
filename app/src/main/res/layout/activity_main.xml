@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/busky_removebg_preview" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Meet your new bestfriend "
+        android:textAlignment="center"
+        android:textColor="#FF3700B3"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/petsbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:text="Get started"
+        android:textColor="#FFFFFFFF" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:srcCompat="@drawable/busky_removebg_preview" />-->
+
+
+</RelativeLayout>

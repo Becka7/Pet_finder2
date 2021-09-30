@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "599885439153",
+    "firebase_url": "https://petfinder-f2123-default-rtdb.firebaseio.com",
+    "project_id": "petfinder-f2123",
+    "storage_bucket": "petfinder-f2123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599885439153:android:28b249aa0c7124deb40290",
+        "android_client_info": {
+          "package_name": "com.moringaschool.petfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599885439153-fdokei2ecflj83m1lq0qd45dqpj79atd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moringaschool.petfinder",
+            "certificate_hash": "7d3608cb3bb11c02eecf8bb91a13eb0d039f8cab"
+          }
+        },
+        {
+          "client_id": "599885439153-e560u5b5jk89gql5qube5vf1cqgh5qag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2vlk8pHK1atXE7wXP71u_cv3lJt7FJ34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599885439153-e560u5b5jk89gql5qube5vf1cqgh5qag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.PetActivity">
+
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewPager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <androidx.viewpager.widget.PagerTabStrip-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/pageHeader"-->
+<!--            android:paddingBottom="4dp"-->
+<!--            android:paddingTop="4dp"/>-->
+
+<!--    </androidx.viewpager.widget.ViewPager>-->
+
+
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#E4E3E3"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/husky2_removebg_preview" />
+
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="79dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/card1"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="20dp"
+        android:text="Snoppy"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/bescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textName"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="26dp"
+        android:text="The Anatolian Shepherd Dog is a native of Turkey, where they were bred as a shepherd’s companion and livestock guardian. They were created with specific traits to resemble the size and color of livestock they defended so predators wouldn’t detect them among the flock. Sometimes called the Anatolian Karabash Dog or Kangal, they’re a fiercely loyal guard dog and a large, impressive dog breed, frequently weighing 120 to 150 pounds at maturity." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text=" ADOPT" />
+
+
+</RelativeLayout>
